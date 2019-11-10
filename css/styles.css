@@ -1,0 +1,118 @@
+*{
+  margin:0;
+}
+
+body {
+  background-image:url("https://image.freepik.com/free-vector/abstract-technology-particle-background_52683-25766.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+
+.login-box {
+  width:500px;
+  height:530px;
+  background-color:#A9A9A9;
+  margin:auto;
+  opacity:0.5;
+}
+
+h1 {
+  padding:60px;
+  color:#A9A9A9;
+  text-align:center;
+  font-family: 'Lobster', cursive;
+}
+
+h2{
+  font-size: 50px;
+  color:#2F4F4F;
+  text-align:center;
+  padding:20px;
+  font-family: 'Baloo Bhai', cursive;
+}
+
+hr {
+  border: dotted #2F4F4F 6px;
+  border-bottom: none;
+  width:304px;
+  margin:auto;
+  margin-bottom:30px;
+}
+
+p{
+  font-family: 'Lobster', cursive;
+  text-align:center;
+  color:white;
+  opacity: 0.7;
+  padding:20px;
+}
+
+.type-box, .btn-box{
+  width:60%;
+  margin:auto;
+}
+
+.username, .userpassword {
+  font-size:20px;
+}
+
+.username-box, .password-box {
+  border:2px solid #2F4F4F;
+  padding:20px;
+  width:260px;
+  font-size:15px;
+}
+
+
+.btn-box{
+  margin-top:40px;
+}
+
+.btn1 {
+  float:right;
+}
+
+.btn2 {
+  float:left;
+}
+
+.btn1, .btn2 {
+background:    rgba(255,255,255,1);
+border:        2px solid #2f4f4f;
+border-radius: 5px;
+padding:       8px 21px;
+color:         #2f4f4f;
+display:       inline-block;
+font:          normal bold 24px/1 "Calibri", sans-serif;
+text-align:    center;
+text-decoration: none;
+}
+
+.btn1:hover, .btn2:hover {
+  background:    #2f4f4f;
+  border:        2px solid #2f4f4f;
+  border-radius: 5px;
+  padding:       8px 21px;
+  color:         white;
+  display:       inline-block;
+  font:          normal bold 24px/1 "Calibri", sans-serif;
+  text-align:    center;
+  text-decoration: none;
+}
+
+.forgot-password {
+  float:left;
+  width:90%;
+  text-align: center;
+  padding:25px;
+}
+
+.forgot-btn{
+  text-decoration: none;
+  color:#2f4f4f;
+}
+
+.forgot-btn:hover {
+  text-decoration: underline;
+  color:blue;
+}
